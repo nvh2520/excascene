@@ -1,0 +1,28 @@
+# Model variants.  Every entry inherits _base and overrides fields.
+_base:
+  sensors: [cab, boom, stick, lidar]
+  extrinsics: dynamic
+  fusion: geometric
+  gating: false
+  hetero: true
+  aff_head: true
+  kin_jitter_deg: 0.0
+  pretrained: true
+  feat_ch: 64
+  init_from: null
+
+# ---- Axis 1: geometry / fusion (identical heads) ----
+G1_perceiver: {fusion: perceiver, perceiver_dim: 192, perceiver_layers: 3}
+G2_static:    {extrinsics: static}
+G3_dyn:       {extrinsics: dynamic}
+G4_late:      {fusion: late}
+G5_cam:       {sensors: [cab, boom, stick]}
+G6_lidar:     {sensors: [lidar]}
+
+# ---- Axis 2: reliability / decision components on top of dynamic fusion ----
+R0_plain:     {hetero: false, aff_head: false}
+R2_noaff:     {gating: true, kin_jitter_deg: 1.0, aff_head: false}
+R2_full:      {gating: true, kin_jitter_deg: 1.0}          # KinAfford-Ex
+
+# ---- optional: real-image (GOOSE-Ex) initialised encoder ----
+R2_full_gooseinit: {gating: true, kin_jitter_deg: 1.0, init_from: runs_real/goose_R2/encoder.pt}

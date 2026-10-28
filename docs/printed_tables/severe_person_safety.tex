@@ -1,0 +1,12 @@
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\caption{Replication severe-camera safety breakdown. Person-buffer selections are per 1,000 attempts; unsafe rates are percentages. Every policy executes on every attempt. Ordinary 95\% scene intervals are descriptive. Uniform rows are analytical probabilities, not integer events. Complete overlapping and exclusive cause inventories include every policy and condition.}\label{tab:personsafety}
+\begin{tabular}{lrr}\toprule Policy & Person /1,000 [95\%] & Unsafe \% [95\%]\\\midrule
+Classical local-ground & 93.8 [76.7, 111.3] & 18.60 [16.41, 20.85]\\
+Classical (post hoc, validation-tuned) & 99.6 [83.5, 116.2] & 21.83 [19.58, 24.12]\\
+Uniform (expected) & 174.2 [161.6, 186.9] & 36.54 [35.42, 37.65]\\
+Training prior & 220.2 [193.8, 247.6] & 30.08 [27.29, 32.91]\\
+KinAfford dynamic; keep-all & 90.5 [75.0, 106.6] & 14.11 [12.42, 15.87]\\
+KinAfford dynamic; gate & 66.7 [52.9, 81.5] & 8.71 [7.26, 10.25]\\
+BEVFusion-Exca; keep-all & 58.9 [45.9, 72.6] & 7.60 [6.15, 9.11]\\
+BEVFusion-Exca; gate & 59.7 [46.5, 73.7] & 7.63 [6.18, 9.16]\\
+\bottomrule\end{tabular}\end{table}

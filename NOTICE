@@ -1,0 +1,13 @@
+ExcaScene
+Research authors: Hung Viet Nguyen and Jinhong Yang.
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software developed at the MIT HAN Lab (BEVFusion,
+https://github.com/mit-han-lab/bevfusion) and by OpenMMLab (MMDetection3D,
+https://github.com/open-mmlab/mmdetection3d), both licensed under the Apache
+License, Version 2.0. Adapted source retains its frozen workspace/ layout. Upstream licenses and the
+BEVFusion patch are under third_party/; every modified file carries a change
+notice. No upstream BEVFusion NOTICE file was present in the pinned snapshot.
+
+See THIRD_PARTY_NOTICES.md for the other components and pretrained weights used.

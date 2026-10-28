@@ -1,0 +1,17 @@
+policy,metric,estimate,lower95,upper95,expected_probability
+Classical local-ground,multi_person_buffer,0.09375,0.07666015625,0.11134033203125,False
+Classical local-ground,unsafe,0.18603515625,0.1640625,0.20849609375,False
+"Classical (post hoc, validation-tuned)",multi_person_buffer,0.099609375,0.08349609375,0.1162109375,False
+"Classical (post hoc, validation-tuned)",unsafe,0.21826171875,0.19580078125,0.2412109375,False
+Uniform (expected),multi_person_buffer,0.17418929668245525,0.16160282833078207,0.18694595271102887,True
+Uniform (expected),unsafe,0.3654186462665588,0.3542406910668899,0.3765343478632355,True
+Training prior,multi_person_buffer,0.22021484375,0.19384765625,0.24755859375,False
+Training prior,unsafe,0.30078125,0.27294921875,0.3291015625,False
+KinAfford dynamic; keep-all,multi_person_buffer,0.09049479166666667,0.07503255208333333,0.10660807291666667,False
+KinAfford dynamic; keep-all,unsafe,0.14111328125,0.12418619791666667,0.15869140625,False
+KinAfford dynamic; gate,multi_person_buffer,0.06673177083333333,0.052897135416666664,0.08154296875,False
+KinAfford dynamic; gate,unsafe,0.08707682291666667,0.07259114583333333,0.1025390625,False
+BEVFusion-Exca; keep-all,multi_person_buffer,0.058919270833333336,0.0458984375,0.07259114583333333,False
+BEVFusion-Exca; keep-all,unsafe,0.07600911458333333,0.0615234375,0.09114583333333333,False
+BEVFusion-Exca; gate,multi_person_buffer,0.059733072916666664,0.046549479166666664,0.07373046875,False
+BEVFusion-Exca; gate,unsafe,0.07633463541666667,0.061848958333333336,0.09163411458333333,False

@@ -1,0 +1,7 @@
+# Historical optional image-check / plotting dependency versions. Not installed or evaluated in the fresh fixture check.
+transformers==4.57.1
+timm==1.0.22
+huggingface-hub==0.36.0
+safetensors==0.6.2
+tokenizers==0.22.1
+matplotlib==3.10.0

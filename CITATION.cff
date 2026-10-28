@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use ExcaScene, please cite the paper and the versions of the code and data you used."
+type: software
+title: "ExcaScene: decision-centric evaluation of excavator perception under sensor faults"
+abstract: >-
+  ExcaScene pairs articulated camera-LiDAR simulations of an excavator with
+  controlled sensor faults and a fixed digging-point selector, so that
+  perception models are evaluated by decision regret and unsafe selections as
+  well as by map error. The release contains the scene generator, sensor and
+  fault models, two perception architectures, camera-health monitors,
+  classical and fixed reference policies, the evaluator and the analysis code.
+authors:
+  - family-names: Nguyen
+    given-names: Hung Viet
+    affiliation: "Department of Digital Anti-Aging Healthcare (BK21), Inje University, Gimhae, Republic of Korea"
+    orcid: "https://orcid.org/0000-0002-6981-0891"
+  - family-names: Yang
+    given-names: Jinhong
+    affiliation: "Department of Medical IT, Inje University, Gimhae, Republic of Korea"
+    email: jinhong@inje.ac.kr
+    orcid: "https://orcid.org/0000-0002-7756-0263"
+version: "1.0.0"
+date-released: "2026-10-28"
+license: Apache-2.0
+repository-code: "https://github.com/nvh2520/excascene"
+keywords:
+  - excavator perception
+  - sensor faults
+  - camera-LiDAR fusion
+  - decision-centric evaluation
+  - construction automation
+  - benchmark
+references:
+  - type: data
+    title: "ExcaScene benchmark data and models (v1.0.0)"
+    authors:
+      - family-names: Nguyen
+        given-names: Hung Viet
+      - family-names: Yang
+        given-names: Jinhong
+    publisher:
+      name: Zenodo
+    version: "1.0.0"
+    doi: "10.5281/zenodo.23723851"
+    license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Decision-centric evaluation of excavator perception under sensor faults: a paired simulation benchmark and camera-fault fallback"
+  authors:
+    - family-names: Nguyen
+      given-names: Hung Viet
+    - family-names: Yang
+      given-names: Jinhong
+  journal: "Automation in Construction"
+  year: 2026

@@ -1,0 +1,60 @@
+# Data, checkpoints and outputs live in the Zenodo deposit, not in git
+data/
+checkpoints/
+outputs/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+# small smoke-test fixtures are the one exception
+!tests/fixtures/**/*.npz
+
+# Build artefacts (native operators are compiled from source)
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.pyd
+
+# Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments, credentials and tool state
+.env
+.env.*
+.venv/
+venv/
+.claude/
+.codex/
+.DS_Store
+
+# Pure vendored MMDetection source at its frozen loader path; this is not a virtualenv.
+!workspace/external_validation_run_EV1_AFAST/environment/venv/
+!workspace/external_validation_run_EV1_AFAST/environment/venv/**
+
+# Scientific dataset loader modules are source, not rendered data.
+!workspace/kinafford/data/
+!workspace/kinafford/data/**
+!workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/data/
+!workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/data/**
+
+/native_build_receipt.json
+/package_inventory.csv
+/environment.installed.txt
+/fixture_manifest.json
+/expected_decisions.csv
+/expected_gate.csv
+/saved_output_provenance.json
+/audit_receipt_resolution.json
+
+!workspace/data/
+workspace/data/*
+!workspace/data/generation_config.json

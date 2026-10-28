@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "fresh_compilation": true,
+  "exit_code": 0,
+  "binaries": [
+    {
+      "path": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/bev_pool/bev_pool_ext.so",
+      "sha256": "d46a1cab9cddf2e70bf7a42526f7d54e2fd7cd1af51661283c18378faefade30"
+    },
+    {
+      "path": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/sparse_conv_ext.so",
+      "sha256": "9fb2a8026ec3dda876450741b5a98008ee9b246ec7aa2fecc8ba547d56ec4efb"
+    },
+    {
+      "path": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/voxel/voxel_layer.so",
+      "sha256": "a4be9313f71cf3c6091be6eb5b17567b144217d9cc3c598a5aab721949fdd71c"
+    }
+  ],
+  "wall_seconds": 102.2537031173706,
+  "utc": "2026-10-27T05:51:59.749466+00:00",
+  "python": "3.11.14 (main, Oct 21 2025, 18:31:21) [GCC 11.2.0]",
+  "packages": {
+    "torch": "2.8.0+cu129",
+    "torchvision": "0.23.0+cu129",
+    "numpy": "1.26.4",
+    "mmcv": "1.4.0",
+    "ninja": "1.13.2"
+  },
+  "cuda_toolkit": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Tue_May_27_02:21:03_PDT_2025\nCuda compilation tools, release 12.9, V12.9.86\nBuild cuda_12.9.r12.9/compiler.36037853_0\n",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+}

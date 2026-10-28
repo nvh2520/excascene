@@ -1,0 +1,8 @@
+{
+  "source": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/include/torch_utils.h",
+  "original_adapted_sha256": "c47d526040279ff0195df96a5148ab25c7b8f7066a3953432f2369ba8824087c",
+  "release_sha256": "14adce7f4f9b308c3b5077c0c3f71d025851442b75ca56489a071e2ca93dca28",
+  "notice_prefix": "// ExcaScene modification: use Tensor.scalar_type for PyTorch 2 compatibility.\n// Replaces the legacy type/scalarType accessor; arithmetic and topology are\n// unchanged. Modification notice added 2026-10-27.\n",
+  "body_unchanged": true,
+  "patch": "third_party/bevfusion/excascene.patch"
+}

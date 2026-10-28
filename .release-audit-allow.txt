@@ -1,0 +1,8 @@
+# Exact false positives reviewed against the unchanged scientific source.
+workspace/final_evidence_2026_10_20/code/study4_map_metrics.py | EMAIL | NumPy matrix multiplication (M at array operations), not an email address.
+workspace/variant_B_submission_2026_10_26/code/summarize_saved.py | EMAIL | NumPy matrix multiplication (w at gs.executed.to_numpy), not an email address.
+tests/fixtures/* | * | Existing small synthetic-fixture expectations and provenance metadata; no real images, annotations or checkpoints.
+workspace/final_evidence_2026_10_20/code/acquire_pretrained.py | LOCAL_PATH | Original locked acquisition source preserves its historical local ResNet cache path. Retained unchanged as provenance, not executed by the release installer or evaluator.
+docs/receipts/third_party_fresh_verification.json | EMAIL | Public upstream copyright/contact address in the SciPy distribution license metadata; attribution retained, no contact made.
+
+docs/receipts/fresh_fixture/receipt.json | LOCAL_PATH | Actual unchanged fixture receipt contains the fresh checkout location and original restored audit provenance. These are provenance, not external runtime dependencies.

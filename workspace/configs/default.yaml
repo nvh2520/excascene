@@ -1,0 +1,13 @@
+# Training defaults (single A100-40GB).  Override with --set key=value
+data_root: data
+epochs: 14
+batch_size: 16
+lr: 3.0e-4
+lr_encoder: 1.0e-4
+weight_decay: 0.01
+warmup_steps: 300
+num_workers: 8
+amp: true
+color_jitter: 0.15
+train_limit: null
+val_limit: null

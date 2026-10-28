@@ -1,0 +1,14 @@
+{
+  "status": "RESOLVED_BY_AUTHENTIC_EXISTING_RECEIPT",
+  "utc": "2026-10-21T17:28:11.256849+00:00",
+  "restored": {
+    "path": "workspace/external_validation_run_EV1_AFAST/manifests/collision_audit_receipt.json",
+    "sha256": "8b9f43fa6754559160b8457e4e4d631788490f28a176c0b7472f430f3bbb133f",
+    "bytes": 50080,
+    "source": "external_validation_run_EV1_AFAST/manifests/collision_audit_receipt.json",
+    "origin": "authentic omitted historical receipt, restored as a new package addition"
+  },
+  "original_base_and_extension_unchanged": true,
+  "rerun_audit": false,
+  "manufactured_historical_receipt": false
+}

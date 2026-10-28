@@ -1,0 +1,8 @@
+{
+  "final_evidence_2026_10_20/study4/holdout/gate_scores.csv": "b7ec073f33499a5240d71575179e64c80fd057afe1c15f294a18ebb63db059fd",
+  "final_evidence_2026_10_20/study4/holdout/gate_scores_receipt.json": "da4f22a02247faddaef46f826a50bbc143e8222e1ca715693eb9c71bc0f4bd16",
+  "final_evidence_2026_10_20/study4/metrics/KF-D42_seed10.csv": "03c29cbbfcacfbe612ded975fc335375265adc19590e62b9624ecc6977ae3335",
+  "final_evidence_2026_10_20/study4/predictions/KF-D42_seed10_manifest.csv": "bae2b1698dbcd0aabc3e79e3bc8405deef03c69dde25e7ef27fa247192e6ee6c",
+  "final_evidence_2026_10_20/study4/metrics/BF-D42_seed10.csv": "ee1a3184a501db11bf0f0e6c974fcc36d653aae837f0931c7841822f3a349911",
+  "final_evidence_2026_10_20/study4/predictions/BF-D42_seed10_manifest.csv": "89a765efbb6562761f366a2a7a27585d4ff05bf9d2c04770837b42f230cc2db9"
+}

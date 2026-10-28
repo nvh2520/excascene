@@ -1,0 +1,10 @@
+REGISTRY=[
+ ('S3-A-X','S3A_R2','S3A_R2','regret_direct_nothreshold','regret_soft',['iid','all_s2','ood_terrain'],'lower'),
+ ('S3-A-Y','S3A_G3','S3A_G3','regret_direct_nothreshold','regret_soft',['iid','all_s2','ood_terrain'],'lower'),
+ ('S3-B-1','S3B_G3_dropout','G6_lidar','H_mae_vis','H_mae_vis',['cam_s3'],'lower'),
+ ('S3-B-2','S3B_G3_dropout','G6_lidar','regret_direct','regret_direct',['cam_s3'],'lower'),
+ ('S3-B-3','S3B_G3_dropout','G3_dyn','H_mae_vis','H_mae_vis',['cam_s3','all_s3'],'lower'),
+ ('S3-B-4','S3B_G3_dropout','G3_dyn','regret_direct','regret_direct',['cam_s3','all_s3'],'lower'),
+ ('S3-C-1','S3C_G3_jitter_epoch','S2C_G3_jitter','H_mae_vis','H_mae_vis',['joint_s2','joint_s3'],'lower'),
+ ('S3-C-2','S3C_R2_epoch','R2_full','H_mae_vis','H_mae_vis',['joint_s2','joint_s3'],'lower')]
+BLOCK_TAGS={'B':['S3B_G3_dropout','S3B_R2_dropout'],'C':['S3C_G3_jitter_epoch','S3C_R2_epoch'],'D':['S3D_G2_static','S3D_G3_dyn','S3D_R2_full','S3D_G6_lidar']}

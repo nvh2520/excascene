@@ -1,0 +1,293 @@
+{
+  "status": "PASS",
+  "tables": [
+    2,
+    9,
+    11
+  ],
+  "primary_families": 2,
+  "new_bootstrap_draws": 0,
+  "neural_forwards": 0,
+  "truth_rescoring": 0,
+  "printed_checks": 32,
+  "checks": [
+    {
+      "table": 2,
+      "row": "Classical local-ground",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "Classical (post hoc, validation-tuned)",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "KinAfford dynamic (14 epochs)",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "BEVFusion-Exca (14 epochs)",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "KinAfford dynamic (42 epochs)",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "BEVFusion-Exca (42 epochs)",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "Uniform reachable (expected)",
+      "printed_match": true
+    },
+    {
+      "table": 2,
+      "row": "Fixed training prior",
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 0,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 1,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 2,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 3,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 4,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 5,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 6,
+      "printed_match": true
+    },
+    {
+      "table": 9,
+      "row": 7,
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Classical local-ground",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Classical local-ground",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Classical (post hoc, validation-tuned)",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Classical (post hoc, validation-tuned)",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Uniform (expected)",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Uniform (expected)",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Training prior",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "Training prior",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "KinAfford dynamic; keep-all",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "KinAfford dynamic; keep-all",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "KinAfford dynamic; gate",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "KinAfford dynamic; gate",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "BEVFusion-Exca; keep-all",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "BEVFusion-Exca; keep-all",
+      "metric": "unsafe",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "BEVFusion-Exca; gate",
+      "metric": "multi_person_buffer",
+      "printed_match": true
+    },
+    {
+      "table": 11,
+      "row": "BEVFusion-Exca; gate",
+      "metric": "unsafe",
+      "printed_match": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/analysis/bootstrap_multiplicities.npz",
+      "sha256": "6701bccbac734469666abf921af07034ec17418e28e6004592fbf093de234296"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/KF-D14_seed10.csv",
+      "sha256": "a29479042c2d844339d73b180decb99fb0382a93eb341a64ed3a6d41b6e2a479"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/KF-D14_seed11.csv",
+      "sha256": "5dcd6a7dd187cfb068018a2293724f652670ae440123541355486572c5834898"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/KF-D14_seed12.csv",
+      "sha256": "dda7267e6a7d506adf529d87cd2cb555ab5283018ddde575ab0339d4d05cf082"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/BF-D14_seed10.csv",
+      "sha256": "40bbadde844c15dc5e60a7ecd15ca989317df509e4170e8e33bc4dbc7b1deca5"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/BF-D14_seed11.csv",
+      "sha256": "1ffea2a1de53befb4ec528cdd267fd7065ea4db848625d0722e6a4ffb7ed786d"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/BF-D14_seed12.csv",
+      "sha256": "3cf9a63dac0da3ab232d1c491e95d581ce9fcdaf2c992869b60b3ae6fcb287d0"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/KF-D42_seed10.csv",
+      "sha256": "03c29cbbfcacfbe612ded975fc335375265adc19590e62b9624ecc6977ae3335"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/KF-D42_seed11.csv",
+      "sha256": "a8cf8e7997e872268bb8cac914052688225fe61e48eedb42439f57f749d7b243"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/KF-D42_seed12.csv",
+      "sha256": "c4318ecce4f9239aaf786fa0ae6fc0da09f946109a0e69cc15700324a88366f1"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/BF-D42_seed10.csv",
+      "sha256": "ee1a3184a501db11bf0f0e6c974fcc36d653aae837f0931c7841822f3a349911"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/BF-D42_seed11.csv",
+      "sha256": "2e8407eb4053776670ab582a532fce3b6872936664259cdf0efd4be6b2179a00"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/metrics/BF-D42_seed12.csv",
+      "sha256": "1bf2ae39d8322e23ba7eaad6b997f9423839f118c1e755cec8e48a63f41fc02d"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/diagnostics/references/per_frame.csv",
+      "sha256": "af22a8d53beb57ea111c597a194d972cc5249d7ac71769a2ae47ab9bc0b424fd"
+    },
+    {
+      "path": "workspace/closing_B_2026_10_27/C1/holdout/per_frame.csv",
+      "sha256": "3261ae27210cebbe51bb1ff4c0cc562fe82bfc036d4b242a8ce1de7b75a9b3d9"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/metrics/KF-D_seed10.csv",
+      "sha256": "04cfee23d4fb738c5bfa6a78e7d25045350d38290b0a8880800ad069e06077e5"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/metrics/KF-D_seed11.csv",
+      "sha256": "80439560924d7d24e8247fa1b28b86640caadb6f35d1ac1f5e94f94fe9982e30"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/metrics/KF-D_seed12.csv",
+      "sha256": "e09c839c089fb5f0f5bfdced0cd40e6fc83d44fb273e44172a00a438221e39e2"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/metrics/BF-D_seed10.csv",
+      "sha256": "4b8ca8cd916bd28fbb402be174392690fd171bcd3126905bd1fc0e2eeefa7da9"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/metrics/BF-D_seed11.csv",
+      "sha256": "745309d2753a8ec39bf83f663cac01df4722212a00e263bba8e7071947d1496f"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/metrics/BF-D_seed12.csv",
+      "sha256": "56ac0e15ebbafed371d95693ff0e19cd05a2fc0983197a78234b2f81b0c53aab"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/analysis/bootstrap_multiplicities.npz",
+      "sha256": "e20393491fd2e0e7c0d2ec3d54886bfb853f9772341fc1514ab128153caeef87"
+    },
+    {
+      "path": "workspace/strengthening_2026_10_18/study3/analysis/primary_results.csv",
+      "sha256": "fe7ee7113802b253d5a6f16aa5ad28fbccd77ad3e56b8d9d62a9193345cfa4e7"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/analysis/primary_results.csv",
+      "sha256": "f8de2a7125710c68809be037323f6f27b633389b7e74635a462f5a2783f45734"
+    },
+    {
+      "path": "workspace/final_evidence_2026_10_20/study4/diagnostics/safety/per_scene.csv",
+      "sha256": "aee8d3cb978c31167d9705464ee5ea54c328b46623161bd7da0a3f3026374c88"
+    }
+  ]
+}

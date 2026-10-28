@@ -1,0 +1,38 @@
+[
+  {
+    "scene_id": 1200000,
+    "frame_id": 0,
+    "condition": "clean",
+    "data": "study4/holdout/data/clean/f_1200000_0.npz",
+    "prediction": "study4/predictions/BF-D42_seed10/subset0/clean/1200000_0.npz",
+    "data_sha256": "fc72c77c320f642f8c1737266122efae07452a7ee6414e117b446da20bebf2d1",
+    "prediction_sha256": "6d9bbac5ccdb8e37d25af6550d8d222920dc6e07e12fe53ac7ca801c8fe97b8d"
+  },
+  {
+    "scene_id": 1200000,
+    "frame_id": 1,
+    "condition": "clean",
+    "data": "study4/holdout/data/clean/f_1200000_1.npz",
+    "prediction": "study4/predictions/BF-D42_seed10/subset0/clean/1200000_1.npz",
+    "data_sha256": "7b559c57135ec4410633243ca1b61dcced62d605965d1005533b7b4c73c59f89",
+    "prediction_sha256": "5bf8c0b2e7506aae7d5056922046a17668a0bc8faff6676ed302cf8f3986ded3"
+  },
+  {
+    "scene_id": 1200000,
+    "frame_id": 2,
+    "condition": "clean",
+    "data": "study4/holdout/data/clean/f_1200000_2.npz",
+    "prediction": "study4/predictions/BF-D42_seed10/subset0/clean/1200000_2.npz",
+    "data_sha256": "bc07a90eb6d58b582061d6448c0558f31494c554a97cdb229ca1550ac2f0e192",
+    "prediction_sha256": "00e19690365c04319ecfbdccad67de3adbdfa801942608b10755e3da93e8f4ac"
+  },
+  {
+    "scene_id": 1200000,
+    "frame_id": 3,
+    "condition": "clean",
+    "data": "study4/holdout/data/clean/f_1200000_3.npz",
+    "prediction": "study4/predictions/BF-D42_seed10/subset0/clean/1200000_3.npz",
+    "data_sha256": "e29f716f82c6ddc9c5ab6fb4aca06aeee034c6f3c7f67678acdae02ccf724815",
+    "prediction_sha256": "25df54f7e1ad99bc342ee00df78413370a120eae75af259023a6cfce294751d1"
+  }
+]

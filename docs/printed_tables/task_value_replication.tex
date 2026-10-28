@@ -1,0 +1,15 @@
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{4pt}
+\caption{Replication holdout. Regret is raw decision loss; unsafe is the percentage of attempts selecting a truth hazard or non-terrain cell. The post-hoc policy abstains on 0.00\%, 0.00\%, 0.20\% of clean, severe-camera and rough attempts, respectively; all other rows execute on every attempt. Learned policies keep all cameras and use direct selection. Uniform values are analytical expectations. The original classical row is frozen; the added row selects a 5 m buffer and 1 m height threshold from validation alone after extending the grid. Complete paired intervals and condition inventories remain in the CSV inventory identified in \artifactsection.}\label{tab:taskvaluereplication}
+\begin{tabular}{lrrrrrr}\toprule
+Policy & \multicolumn{2}{c}{Clean} & \multicolumn{2}{c}{Severe camera} & \multicolumn{2}{c}{Rough terrain}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+ & Regret & Unsafe \% & Regret & Unsafe \% & Regret & Unsafe \%\\\midrule
+Classical local-ground & 0.4700 & 20.21 & 0.4726 & 18.60 & 0.5849 & 42.19\\
+Classical (post hoc, validation-tuned) & 0.4339 & 23.83 & 0.4451 & 21.83 & 0.5773 & 47.75\\
+KinAfford dynamic (14 epochs) & 0.1527 & 5.22 & 0.2350 & 14.10 & 0.3673 & 14.06\\
+BEVFusion-Exca (14 epochs) & 0.1764 & 7.24 & 0.1929 & 8.66 & 0.3394 & 17.94\\
+KinAfford dynamic (42 epochs) & 0.1171 & 3.86 & 0.2265 & 14.11 & 0.3051 & 13.22\\
+BEVFusion-Exca (42 epochs) & 0.1119 & 3.82 & 0.1783 & 7.60 & 0.2449 & 13.35\\
+Uniform reachable (expected) & 0.6744 & 36.54 & 0.6744 & 36.54 & 0.6174 & 40.31\\
+Fixed training prior & 0.5735 & 30.08 & 0.5735 & 30.08 & 0.5755 & 32.42\\
+\bottomrule\end{tabular}\end{table}

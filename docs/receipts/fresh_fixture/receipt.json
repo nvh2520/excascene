@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "start_utc": "2026-10-27T06:43:35.189723+00:00",
+  "candidate": "/media/choilee-1/77c08e74-222c-415e-a7ce-209e1d1709d8/kinafford_ex (Codex)/release_A_round2/fresh_clone",
+  "output": "../reports/fresh_fixture",
+  "new_training": false,
+  "new_generation": false,
+  "fresh_compilation": false,
+  "training_reproduction": false,
+  "precision": "FP32; TF32/autocast disabled",
+  "atol": 2e-05,
+  "rtol": 2e-05,
+  "fixture_records": 4,
+  "device": "NVIDIA A100-PCIE-40GB",
+  "torch": "2.8.0+cu129",
+  "gate_camera_forwards": 12,
+  "actual_perception_forwards": 8,
+  "logical_perception_arm_forwards": 16,
+  "exact_decision_rows": 32,
+  "map_comparisons": 56,
+  "maximum_map_absolute_difference": 2.086162567138672e-06,
+  "maps_within_declared_tolerance": true,
+  "all_labels_and_discrete_events_exact": true,
+  "gate_checks": [
+    {
+      "architecture": "KF-D42",
+      "scene_id": 1200000,
+      "frame_id": 0,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 5.412337245047638e-16
+    },
+    {
+      "architecture": "BF-D42",
+      "scene_id": 1200000,
+      "frame_id": 0,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 5.412337245047638e-16
+    },
+    {
+      "architecture": "KF-D42",
+      "scene_id": 1200000,
+      "frame_id": 1,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 1.5916157281026244e-11
+    },
+    {
+      "architecture": "BF-D42",
+      "scene_id": 1200000,
+      "frame_id": 1,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 1.5916157281026244e-11
+    },
+    {
+      "architecture": "KF-D42",
+      "scene_id": 1200000,
+      "frame_id": 2,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 1.6940658945086007e-19
+    },
+    {
+      "architecture": "BF-D42",
+      "scene_id": 1200000,
+      "frame_id": 2,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 1.6940658945086007e-19
+    },
+    {
+      "architecture": "KF-D42",
+      "scene_id": 1200000,
+      "frame_id": 3,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 2.5579538487363607e-13
+    },
+    {
+      "architecture": "BF-D42",
+      "scene_id": 1200000,
+      "frame_id": 3,
+      "mask": [
+        0,
+        0,
+        0
+      ],
+      "exact": true,
+      "maximum_probability_difference": 2.5579538487363607e-13
+    }
+  ],
+  "checkpoints": [
+    {
+      "architecture": "KF-D42",
+      "seed": 10,
+      "path": "final_evidence_2026_10_20/checkpoints/KF-D/seed10/epoch42.pt",
+      "sha256": "691df74597349af91e7dd59c7285cbb97fa19e4d998ca08422bd5f4e14df0f23",
+      "selection": "prespecified epoch42 only",
+      "training_precision": "actual FP32",
+      "epochs": 42,
+      "training_frame_exposures": 504000,
+      "pretrained_loading_receipt": "checkpoints/KF-D/seed10/pretrained_loading.json",
+      "pretrained_loading_receipt_sha256": "ac17db88f97a70fab0e3a9b80d9c82d3ae665feec13b0c3224f02320e2254c23",
+      "completion_receipt_sha256": "beb5599527164edf44df2e2d1f9e5dd05630bbf4eb1530729dbeda75a4c890dd"
+    },
+    {
+      "architecture": "BF-D42",
+      "seed": 10,
+      "path": "final_evidence_2026_10_20/checkpoints/BF-D/seed10/epoch42.pt",
+      "sha256": "199ffd8d9e9b083145db0840aec6be7fea76fa0dd6f30af1a71d31f3b42ead56",
+      "selection": "prespecified epoch42 only",
+      "training_precision": "actual FP32",
+      "epochs": 42,
+      "training_frame_exposures": 504000,
+      "pretrained_loading_receipt": "checkpoints/BF-D/seed10/pretrained_loading.json",
+      "pretrained_loading_receipt_sha256": "47703529b7f65ec86bb5fbb349e39ca8513ad4290ed79f6be659d69aeef66edb",
+      "completion_receipt_sha256": "c849d9f996cea9c313bdc09fbd65a5f39a810824946319435589bf9a0406fef9"
+    }
+  ],
+  "gate_sha256": "63f05aac84cd9145f28a4c597578471cafa19e301d3d713b5ed9bb490af8bdf5",
+  "package_inventory_sha256": "0c86db18d56c462c5935af2548ae983761809df7f6d1ba15fae8515401502626",
+  "lock_sha256": "d87c8bebb5932757ac719dcfc50b5a7d1e9b7d22d5d6fec404c5ff6e29ae683f",
+  "source_imports": {
+    "kinafford": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/__init__.py",
+    "kinafford.sim": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/sim/__init__.py",
+    "kinafford.sim.kinematics": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/sim/kinematics.py",
+    "kinafford.sim.scene": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/sim/scene.py",
+    "common": "workspace/final_evidence_2026_10_20/code/common.py",
+    "kinafford.models": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/models/__init__.py",
+    "kinafford.models.blocks": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/models/blocks.py",
+    "kinafford.models.variants": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/models/variants.py",
+    "upstream_loader": "workspace/external_validation_run_EV1_AFAST/code/upstream_loader.py",
+    "mmdet.models.utils.ckpt_convert": "workspace/external_validation_run_EV1_AFAST/environment/venv/lib/python3.11/site-packages/mmdet/models/utils/ckpt_convert.py",
+    "mmdet.models.utils.res_layer": "workspace/external_validation_run_EV1_AFAST/environment/venv/lib/python3.11/site-packages/mmdet/models/utils/res_layer.py",
+    "mmdet.models.backbones.resnet": "workspace/external_validation_run_EV1_AFAST/environment/venv/lib/python3.11/site-packages/mmdet/models/backbones/resnet.py",
+    "mmdet.models.backbones.swin": "workspace/external_validation_run_EV1_AFAST/environment/venv/lib/python3.11/site-packages/mmdet/models/backbones/swin.py",
+    "mmdet3d.ops.spconv": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/__init__.py",
+    "mmdet3d.ops.spconv.sparse_conv_ext": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/sparse_conv_ext.so",
+    "mmdet3d.ops.spconv.ops": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/ops.py",
+    "mmdet3d.ops.spconv.functional": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/functional.py",
+    "mmdet3d.ops.spconv.structure": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/structure.py",
+    "mmdet3d.ops.spconv.modules": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/modules.py",
+    "mmdet3d.ops.spconv.conv": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/conv.py",
+    "mmdet3d.ops.spconv.pool": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/spconv/pool.py",
+    "mmdet3d.ops.bev_pool": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/bev_pool/__init__.py",
+    "mmdet3d.ops.bev_pool.bev_pool_ext": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/bev_pool/bev_pool_ext.so",
+    "mmdet3d.ops.bev_pool.bev_pool": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/bev_pool/bev_pool.py",
+    "mmdet3d.ops.sparse_block": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/sparse_block.py",
+    "mmdet3d.ops.voxel.voxelize": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/voxel/voxelize.py",
+    "mmdet3d.ops.voxel.voxel_layer": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/ops/voxel/voxel_layer.so",
+    "mmdet3d.models.backbones.sparse_encoder": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/backbones/sparse_encoder.py",
+    "mmdet3d.models.backbones.second": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/backbones/second.py",
+    "mmdet3d.models.necks.second": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/necks/second.py",
+    "mmdet3d.models.necks.generalized_lss": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/necks/generalized_lss.py",
+    "mmdet3d.models.vtransforms.base": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/vtransforms/base.py",
+    "mmdet3d.models.vtransforms.lss": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/vtransforms/lss.py",
+    "mmdet3d.models.fusers.conv": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted/mmdet3d/models/fusers/conv.py",
+    "models": "workspace/external_validation_run_EV1_AFAST/code/models.py",
+    "kinafford.data": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/data/__init__.py",
+    "kinafford.data.dataset": "workspace/external_validation_run_EV1_AFAST/source/excascene_snapshot/kinafford/data/dataset.py",
+    "inputs": "workspace/external_validation_run_EV1_AFAST/code/inputs.py",
+    "neural": "workspace/final_evidence_2026_10_20/code/neural.py",
+    "gate": "workspace/final_evidence_2026_10_20/code/gate.py",
+    "infer_study4": "workspace/final_evidence_2026_10_20/code/infer_study4.py"
+  },
+  "source_imports_all_within_candidate": true,
+  "runtime": "Existing installed Torch/MMCV/etc.; packaged MMDetection source and existing sm80 binaries, no compilation",
+  "missing_base_receipt": {
+    "status": "RESOLVED_BY_AUTHENTIC_EXISTING_RECEIPT",
+    "utc": "2026-10-21T17:28:11.256849+00:00",
+    "restored": {
+      "path": "workspace/external_validation_run_EV1_AFAST/manifests/collision_audit_receipt.json",
+      "sha256": "8b9f43fa6754559160b8457e4e4d631788490f28a176c0b7472f430f3bbb133f",
+      "bytes": 50080,
+      "source": "external_validation_run_EV1_AFAST/manifests/collision_audit_receipt.json",
+      "origin": "authentic omitted historical receipt, restored as a new package addition"
+    },
+    "original_base_and_extension_unchanged": true,
+    "rerun_audit": false,
+    "manufactured_historical_receipt": false
+  },
+  "elapsed_seconds": 36.71260476112366,
+  "finish_utc": "2026-10-27T06:44:11.902343+00:00"
+}

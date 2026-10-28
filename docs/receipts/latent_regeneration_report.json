@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-27T05:30:52.760052+00:00",
+  "scope": "Every shared and novel-fault latent array in the replication and first prospective gate holdouts; not a regeneration claim for the earlier two studies",
+  "new_observations": 0,
+  "neural_forwards": 0,
+  "new_bootstrap_draws": 0,
+  "checks": [
+    {
+      "holdout": "replication",
+      "files": 5120,
+      "arrays": 113664,
+      "different": 0,
+      "missing": 0,
+      "extra": 0,
+      "hash_list": "replication_latent_array_hashes.csv",
+      "hash_list_sha256": "6b569ecca2b2e1f252c8d695214acb38f01ae4abb42f4d05d921b771ceff57fd",
+      "regeneration_command": "python tools/regenerate_latents.py --study replication --slots <holdout>/slots.csv --identities <holdout>/holdout_manifest.json --out <new-latent-directory> --workers 2",
+      "check_command": "python tools/npz_array_hashes.py check --root <new-latent-directory> --hashes <holdout>/latent_array_hashes.csv",
+      "regeneration_receipt": {
+        "study": "replication",
+        "accepted_bundles": 3072,
+        "files": 5120,
+        "status": "REGENERATED_PENDING_KIT_ARRAY_CHECK",
+        "wall_seconds": 884.7704100608826,
+        "slots_sha256": "aa51b86e4c87de797e7133d736977fab6dec9a85c86574c29d9a06d03a54d14f",
+        "identities_sha256": "ed10bcf1d57814da124df41ea8427758c09a46cd2086439e56761a3af9daff5c",
+        "raw_saved_latents_read": false,
+        "observations_rendered": 0,
+        "neural_forwards": 0
+      }
+    },
+    {
+      "holdout": "first_prospective",
+      "files": 5112,
+      "arrays": 113510,
+      "different": 0,
+      "missing": 0,
+      "extra": 0,
+      "hash_list": "first_prospective_latent_array_hashes.csv",
+      "hash_list_sha256": "69c03d219a8b7bba7291cbe2b176a767ce005707c7924c0892de4bc0dc0eddb9",
+      "regeneration_command": "python tools/regenerate_latents.py --study first_prospective --slots <holdout>/slots.csv --identities <holdout>/holdout_manifest.json --out <new-latent-directory> --workers 2",
+      "check_command": "python tools/npz_array_hashes.py check --root <new-latent-directory> --hashes <holdout>/latent_array_hashes.csv",
+      "regeneration_receipt": {
+        "study": "first_prospective",
+        "accepted_bundles": 3068,
+        "files": 5112,
+        "status": "REGENERATED_PENDING_KIT_ARRAY_CHECK",
+        "wall_seconds": 890.1237101554871,
+        "slots_sha256": "4d5cae68952c29828f017c4e2c24cc4605dd8e30909639428a9a1e4203bccceb",
+        "identities_sha256": "f3614397d672aaac6a576bbe6d5f1ae6f7606ad664d17ce5e43368e99d70d694",
+        "raw_saved_latents_read": false,
+        "observations_rendered": 0,
+        "neural_forwards": 0
+      }
+    }
+  ],
+  "total_identical_arrays": 227174,
+  "total_npz_files": 10232
+}

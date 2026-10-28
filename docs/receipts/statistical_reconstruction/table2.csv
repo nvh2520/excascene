@@ -1,0 +1,25 @@
+policy,condition,regret,unsafe,attempts,uniform_expected
+Classical local-ground,clean,0.4700411169699912,0.2021484375,2048,False
+Classical local-ground,cam_s3,0.47256509769352917,0.18603515625,2048,False
+Classical local-ground,rough_iid,0.5848763666098762,0.421875,1024,False
+"Classical (post hoc, validation-tuned)",clean,0.4338549076267668,0.23828125,2048,False
+"Classical (post hoc, validation-tuned)",cam_s3,0.44509685962904655,0.21826171875,2048,False
+"Classical (post hoc, validation-tuned)",rough_iid,0.577280683138838,0.4775390625,1024,False
+KinAfford dynamic (14 epochs),clean,0.15268841736924324,0.05224609375,6144,False
+KinAfford dynamic (14 epochs),cam_s3,0.23500775422229125,0.14095052083333334,6144,False
+KinAfford dynamic (14 epochs),rough_iid,0.36730565499337775,0.140625,3072,False
+BEVFusion-Exca (14 epochs),clean,0.17638198151789197,0.07242838541666667,6144,False
+BEVFusion-Exca (14 epochs),cam_s3,0.1928672195198556,0.08658854166666667,6144,False
+BEVFusion-Exca (14 epochs),rough_iid,0.33940422195248815,0.17936197916666666,3072,False
+KinAfford dynamic (42 epochs),clean,0.1171120272982537,0.03857421875,6144,False
+KinAfford dynamic (42 epochs),cam_s3,0.22653996379403196,0.14111328125,6144,False
+KinAfford dynamic (42 epochs),rough_iid,0.3050771623233916,0.13216145833333334,3072,False
+BEVFusion-Exca (42 epochs),clean,0.11185173393308408,0.038248697916666664,6144,False
+BEVFusion-Exca (42 epochs),cam_s3,0.17834278507317927,0.07600911458333333,6144,False
+BEVFusion-Exca (42 epochs),rough_iid,0.24485885949846184,0.13346354166666666,3072,False
+Uniform reachable (expected),clean,0.6743560276111031,0.3654186462665588,2048,True
+Uniform reachable (expected),cam_s3,0.6743560276111031,0.3654186462665588,2048,True
+Uniform reachable (expected),rough_iid,0.6174439184642401,0.4030501482593961,1024,True
+Fixed training prior,clean,0.5734690331234624,0.30078125,2048,False
+Fixed training prior,cam_s3,0.5734690331234624,0.30078125,2048,False
+Fixed training prior,rough_iid,0.5755321122011754,0.32421875,1024,False

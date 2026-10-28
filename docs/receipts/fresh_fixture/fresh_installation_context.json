@@ -1,0 +1,13 @@
+{
+  "fixture_status": "PASS",
+  "fresh_environment": true,
+  "fresh_native_compilation": true,
+  "verification": {
+    "source_files": 1596,
+    "historical_checkpoint_locks": "exact for both fixture checkpoints and gate",
+    "native_binaries": "verified against this fresh compilation receipt, not the historical binary hashes",
+    "original_study4_protocol": "d87c8bebb5932757ac719dcfc50b5a7d1e9b7d22d5d6fec404c5ff6e29ae683f"
+  },
+  "harness_runtime_text": "Historical harness metadata is not used as evidence for this installation; see native_build_receipt.json and the environment receipt.",
+  "gpu_seconds_upper_bound": 36.71260476112366
+}

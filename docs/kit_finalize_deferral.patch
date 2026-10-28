@@ -1,0 +1,24 @@
+--- kit_v2/tools/build_zenodo_deposit.py
++++ release/tools/build_zenodo_deposit.py
+@@ -440,8 +440,12 @@
+         with open(src, encoding="utf-8") as fh:
+             text = fh.read()
+         left = sorted(set(ra.PLACEHOLDER_RE.findall(text)))
++        deferred = set(getattr(args, "defer_placeholders", "").split(","))
++        unresolved = [x for x in left if x not in deferred]
++        if unresolved:
++            die(f"{src} still has placeholders: {', '.join(unresolved)}")
+         if left:
+-            die(f"{src} still has placeholders: {', '.join(left)}")
++            print("AUTHOR FIELDS DEFERRED; NOT PUBLICATION-READY: " + ", ".join(left))
+         shutil.copyfile(src, os.path.join(out, name))
+     names = sorted(os.listdir(out))
+     subdirs = [n for n in names if os.path.isdir(os.path.join(out, n))]
+@@ -491,6 +495,7 @@
+     f.add_argument("--out", required=True)
+     f.add_argument("--readme", required=True)
+     f.add_argument("--license", required=True)
++    f.add_argument("--defer-placeholders", default="", help="Explicit author-field deferral for private review only; omit for publication")
+     f.add_argument("--max-files", type=int, default=100)
+     f.add_argument("--quota-gb", type=float, default=50.0)
+     args = ap.parse_args(argv)

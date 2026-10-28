@@ -1,0 +1,431 @@
+{
+  "status": "PASS",
+  "unique_files": 47,
+  "historical_references": 59,
+  "bytes": 1621343013,
+  "checkpoints": [
+    {
+      "source": "runs/G2_static/seed0/last.pt",
+      "sha256": "9d2911fb0a2338af6c47f28e51cef61378b2958aae40e1e67fc9901f7b452f61",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G2_static/seed1/last.pt",
+      "sha256": "796191fe857156eedc57b684885f1ffff7383f9d0c0c6d474792ee2d3c7ef17e",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G2_static/seed2/last.pt",
+      "sha256": "83a9a680a07e26d60670ceb21df3d4da0f86f1221c0696d2c415f895f95a4b8f",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G2_static/seed0/best.pt",
+      "sha256": "ce1ae70cc7ca70b567c233f62979f3dd025b564d4118959d3813bca54e469fbe",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G2_static/seed1/best.pt",
+      "sha256": "22d320d4b7261b804beddff490bc343b26359f7bc7d5c3d558dcb0ea5ca3639f",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G2_static/seed2/best.pt",
+      "sha256": "e4ab999d57ef48bd70e9cee069edd3fba380951dc32875aa13c5dd3c4e89e63f",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G3_dyn/seed0/last.pt",
+      "sha256": "1c1b2707078d38d0cb1e5f38ca769bad9b08f8eb3b54bc5ead2ef45961c25eae",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G3_dyn/seed1/last.pt",
+      "sha256": "1c8d33bc30dbba77618352644ee6ddefe62a64c6efca4f5d4e4e81a39ed39981",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G3_dyn/seed2/last.pt",
+      "sha256": "2eb1a6c0e41447699f2f54a1b897d84d7acde7fc0f32f90e3456d2e92119a422",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G3_dyn/seed0/best.pt",
+      "sha256": "f0c940bf5284a8ee51b099144c220d6ce1a492583d415655b64b503ff7576b25",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G3_dyn/seed1/best.pt",
+      "sha256": "ea7926be55cd0f7f1754b0ef63e1e644bcfd70cded9122e6727856487876ff31",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/G3_dyn/seed2/best.pt",
+      "sha256": "acf79ec5e1787c5cb006b45388cc0a7737a84ea9c7f136b23ad0c24af1ce436b",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 19704793,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_full/seed0/last.pt",
+      "sha256": "edd450f40db9c0495d2f2cf0507e97113fd847ea13e66d2567fe0b48fe42824c",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20105401,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_full/seed1/last.pt",
+      "sha256": "6075dc83e746dc62f4274ebba604ca26a49048033145ad92e23d9b59011d0d1b",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20105401,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_full/seed2/last.pt",
+      "sha256": "17bd34fffcc2fd5eaaa92f085437bc2166a20205ffbec660c4532c1073c5e507",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20105401,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_full/seed0/best.pt",
+      "sha256": "5da6d7d1bbd36ab7a97c6e4fbf9cc64a554a86709a63b6593fa20f3acf90874b",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20105401,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_full/seed1/best.pt",
+      "sha256": "ba459bd06db5f6dd2e50eb0adc433c6db292489c2d223cecf5ea85969242fb5d",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20105401,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_full/seed2/best.pt",
+      "sha256": "de313cdd47f63942ab8f18db20afa8040a76a19c4733ac22b2eb87152c851611",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20105401,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_noaff/seed0/last.pt",
+      "sha256": "df6ffafce92c67bf58e9fef70481f73e6c12afd5318eaca621b3f03c7e09b125",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20104323,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_noaff/seed1/last.pt",
+      "sha256": "ac04a5a1339b15acf0be0c43096d9bea0d3d62302585759cacb5e71721ca6404",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20104323,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_noaff/seed2/last.pt",
+      "sha256": "4a48b40e7834212552818bbda1b78278a82a8cf64b5b232a2dc5245b9180c167",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20104323,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_noaff/seed0/best.pt",
+      "sha256": "ee94341aa72f5363ccf0817c42e80e0700ae14583944744437c09a7c2c89b437",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20104323,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_noaff/seed1/best.pt",
+      "sha256": "fac222962374533b5d92ac40bd3eee5d40b40e87692356610232d422f1d8fdf7",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20104323,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs/R2_noaff/seed2/best.pt",
+      "sha256": "331eabad931d1b14507db749164585eb37f658fe4791606351c3c9ff7d0c4add",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv",
+      "family": "reference",
+      "bytes": 20104323,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs_stage5/S5A_G3_structured/seed0/best.pt",
+      "sha256": "58e298d4a6c1e4faa8b55f8b2bc3fdc07371849d503c9a1820fa67659b5223a6",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv; strengthening_2026_10_18/protocol/checkpoint_inventory.json",
+      "family": "reference",
+      "bytes": 19704857,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs_stage5/S5A_G3_structured/seed1/best.pt",
+      "sha256": "d7b3cfdadc3469d9b320b358c9e412c708e301dab618ec0cab7798eefbbb8c89",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv; strengthening_2026_10_18/protocol/checkpoint_inventory.json",
+      "family": "reference",
+      "bytes": 19704857,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs_stage5/S5A_G3_structured/seed2/best.pt",
+      "sha256": "c2e321993b09ec8a9428f445a63976f4b6950cbe13259cbca28e79b8ee4aa4e8",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv; strengthening_2026_10_18/protocol/checkpoint_inventory.json",
+      "family": "reference",
+      "bytes": 19704857,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs_stage2/S2E_G6_lidar/seed0/best.pt",
+      "sha256": "c4fb3bc15dc91467736371c19c21d013bad6c5db83bb479edd489a769838839c",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv; strengthening_2026_10_18/protocol/checkpoint_inventory.json",
+      "family": "reference",
+      "bytes": 8198737,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs_stage2/S2E_G6_lidar/seed1/best.pt",
+      "sha256": "cd695d50c80034732387db5ac7d2a02608bc443f591b11aad7cacf41a1ab0fd2",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv; strengthening_2026_10_18/protocol/checkpoint_inventory.json",
+      "family": "reference",
+      "bytes": 8198737,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "runs_stage2/S2E_G6_lidar/seed2/best.pt",
+      "sha256": "e6c336a9122bfe495a4064193a82e2a6b2052f74e8e1c7146255b0dee4a5fbd7",
+      "lock": "revision_v5/readiness_v5_1/evidence/manifests/checkpoint_manifest.csv; strengthening_2026_10_18/protocol/checkpoint_inventory.json",
+      "family": "reference",
+      "bytes": 8198737,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "external_validation_run_EV1_AFAST/checkpoints/KF-D/seed10/final.pt",
+      "sha256": "f9775834d44de4f2ef279330c53667b4222c56ea3a75af5afa31cfeea24cb04c",
+      "lock": "strengthening_2026_10_18/protocol/checkpoint_inventory.json; final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "external_or_reference",
+      "bytes": 19714915,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "external_validation_run_EV1_AFAST/checkpoints/KF-D/seed11/final.pt",
+      "sha256": "5faba97a8aaa11bf1fb9d51c8d139ea2a84b5fb13dea05838278030815569c9a",
+      "lock": "strengthening_2026_10_18/protocol/checkpoint_inventory.json; final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "external_or_reference",
+      "bytes": 19714915,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "external_validation_run_EV1_AFAST/checkpoints/KF-D/seed12/final.pt",
+      "sha256": "cc1e1fad2031371338784503782e5e227ec8a32b4b20bc13239fe8d267e48773",
+      "lock": "strengthening_2026_10_18/protocol/checkpoint_inventory.json; final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "external_or_reference",
+      "bytes": 19714915,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "external_validation_run_EV1_AFAST/checkpoints/BF-D/seed10/final.pt",
+      "sha256": "cbc7933f10f46be5258d22bb8d3b33343bca597ad6a2379b19b2476cd3781249",
+      "lock": "strengthening_2026_10_18/protocol/checkpoint_inventory.json; final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "external_or_reference",
+      "bytes": 151338015,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "external_validation_run_EV1_AFAST/checkpoints/BF-D/seed11/final.pt",
+      "sha256": "436e40433d418032fe0b8c675b70749ef4fc6a90deb032f90f3ac636934510eb",
+      "lock": "strengthening_2026_10_18/protocol/checkpoint_inventory.json; final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "external_or_reference",
+      "bytes": 151338079,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "external_validation_run_EV1_AFAST/checkpoints/BF-D/seed12/final.pt",
+      "sha256": "696be6ca8166f0d7e17da6bc3b696e08fba562796eea1c354873f314438529b5",
+      "lock": "strengthening_2026_10_18/protocol/checkpoint_inventory.json; final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "external_or_reference",
+      "bytes": 151338079,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/checkpoints/KF-D/seed10/epoch42.pt",
+      "sha256": "691df74597349af91e7dd59c7285cbb97fa19e4d998ca08422bd5f4e14df0f23",
+      "lock": "final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "replication",
+      "bytes": 19731319,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/checkpoints/KF-D/seed11/epoch42.pt",
+      "sha256": "b939ddb7b670d45d94c15b36d090fab82197bab6565a083b4dd47b6ac0cc623e",
+      "lock": "final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "replication",
+      "bytes": 19731319,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/checkpoints/KF-D/seed12/epoch42.pt",
+      "sha256": "f4a4e7a35b9027826a2174578385513dcd8de1fe83e302dca849eaeddd3708d0",
+      "lock": "final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "replication",
+      "bytes": 19731319,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/checkpoints/BF-D/seed10/epoch42.pt",
+      "sha256": "199ffd8d9e9b083145db0840aec6be7fea76fa0dd6f30af1a71d31f3b42ead56",
+      "lock": "final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "replication",
+      "bytes": 151386197,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/checkpoints/BF-D/seed11/epoch42.pt",
+      "sha256": "c3adb64e989e07a9b667d3e9fe63152b27e241af77fa8737ecbe764c84a0a68f",
+      "lock": "final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "replication",
+      "bytes": 151386197,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/checkpoints/BF-D/seed12/epoch42.pt",
+      "sha256": "34bfa9968a817cf091d85c0dd8090ab18e0bc5984426bd398bc8e615e28e120a",
+      "lock": "final_evidence_2026_10_20/protocol/checkpoint_inventory.json",
+      "family": "replication",
+      "bytes": 151386197,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "strengthening_2026_10_18/study3/gate/final.pt",
+      "sha256": "63f05aac84cd9145f28a4c597578471cafa19e301d3d713b5ed9bb490af8bdf5",
+      "lock": "strengthening_2026_10_18/protocol/study3_final_lock.json",
+      "family": "gate",
+      "bytes": 1635222,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/study4/gate/final.pt",
+      "sha256": "63f05aac84cd9145f28a4c597578471cafa19e301d3d713b5ed9bb490af8bdf5",
+      "lock": "final_evidence_2026_10_20/protocol/study4_final_lock.json",
+      "family": "gate",
+      "bytes": 1635222,
+      "provenance_type": "historical checkpoint inventory or protocol lock",
+      "verified": true
+    },
+    {
+      "source": "strengthening_2026_10_18/phase_a/material_probe/final.pt",
+      "sha256": "083443a0ac2fdf1982813986d6ff9a5a9fa8d6402a3aaaa5adb6c26808a2b193",
+      "lock": "strengthening_2026_10_18/phase_a/material_probe/result.json",
+      "family": "material_probe",
+      "provenance_type": "historical completion receipt",
+      "bytes": 231083,
+      "verified": true
+    },
+    {
+      "source": "strengthening_2026_10_18/goose_ex/checkpoints/sim_segformer_b0_final.pt",
+      "sha256": "8d66e0b5c316897cdf91440c099e44bb8c9282c79d0aed860abf954088427879",
+      "lock": "strengthening_2026_10_18/goose_ex/protocol/evaluation_checkpoint_lock.json",
+      "family": "original_sim_segmenter",
+      "provenance_type": "historical pre-evaluation lock",
+      "bytes": 14939625,
+      "verified": true
+    },
+    {
+      "source": "final_evidence_2026_10_20/image_check/checkpoints/sim_segformer_b0_final.pt",
+      "sha256": "5d2266dbc842939601ad2863eab37c73d1fabe51649d2daabf53eec6890a5349",
+      "lock": "final_evidence_2026_10_20/delivery/large_asset_inventory.csv",
+      "family": "upgraded_sim_segmenter",
+      "provenance_type": "historical delivery digest; not a pre-evaluation lock",
+      "bytes": 14963753,
+      "verified": true
+    }
+  ]
+}

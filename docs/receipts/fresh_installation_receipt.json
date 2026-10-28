@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-27T06:46:33.174133+00:00",
+  "fresh_environment": true,
+  "fresh_native_compilation": true,
+  "input_scope": "fresh local clone and extracted kit-generated deposit only",
+  "gpu_fixture_jobs": 1,
+  "gpu_job_wall_seconds_upper_bound": 42.74,
+  "gpu_job_hours_upper_bound": 0.011872222222222223,
+  "gpu_budget_hours": 1,
+  "actual_perception_forwards": 8,
+  "gate_camera_forwards": 12,
+  "exact_decision_rows": 32,
+  "map_comparisons": 56,
+  "maximum_map_absolute_difference": 2.086162567138672e-06,
+  "atol": 2e-05,
+  "rtol": 2e-05,
+  "source_files_verified": 1596,
+  "training_reproduction": false,
+  "new_bootstrap_draws": 0,
+  "runtime_note": "The unchanged historical harness retains its original fresh_compilation=false/runtime strings. They describe that harness's original use, not this run. This receipt and fresh_installation_context.json describe the actual fresh environment and newly compiled operators.",
+  "evidence": {
+    "docs/receipts/fresh_fixture/receipt.json": "de66c65f3c35c5fade9f0b99d1e5e7bc6940a2d7c8507879d40ce54379f5212e",
+    "docs/receipts/fresh_fixture/fresh_installation_context.json": "4e1f50448ee450006938c79edb8c31b445098660e9bc948bc1a29fc188174512",
+    "docs/receipts/native_build_receipt.json": "306fb1acf763c419455bcb6171c201e06861b35002b41dfe29ab9d49a7dd7a09",
+    "docs/receipts/fresh_environment.json": "f615167c8934164ee3d19569f630075c15eb98decf7f20e42f335f967ce077ac",
+    "requirements-fresh-lock.txt": "bdaba24d511a9f0c2217dc9071cd0641c4534b48c069652ea97b271b29df1a39"
+  }
+}

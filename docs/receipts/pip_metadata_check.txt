@@ -1,0 +1,2 @@
+mmcv 1.4.0 requires opencv-python, which is not installed.
+opencv-python-headless 4.12.0.88 has requirement numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4.

@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "neural_forwards": 0,
+  "latent_files_present": false,
+  "fixture_records": 4,
+  "additional_holdout_records": 1,
+  "comparisons": [
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 0,
+      "policy": "direct",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 0,
+      "policy": "soft",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 1,
+      "policy": "direct",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 1,
+      "policy": "soft",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 2,
+      "policy": "direct",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 2,
+      "policy": "soft",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 3,
+      "policy": "direct",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "fixture",
+      "scene_id": 1200000,
+      "frame_id": 3,
+      "policy": "soft",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "additional_holdout_sample",
+      "scene_id": 1200027,
+      "frame_id": 1,
+      "condition": "cam_s3",
+      "policy": "direct",
+      "exact_selection_and_events": true
+    },
+    {
+      "kind": "additional_holdout_sample",
+      "scene_id": 1200027,
+      "frame_id": 1,
+      "condition": "cam_s3",
+      "policy": "soft",
+      "exact_selection_and_events": true
+    }
+  ]
+}

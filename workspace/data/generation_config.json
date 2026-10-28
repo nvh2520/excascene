@@ -1,0 +1,220 @@
+{
+ "profile": "full",
+ "spec": {
+  "train": [
+   0,
+   3000,
+   "iid"
+  ],
+  "val": [
+   3000,
+   3300,
+   "iid"
+  ],
+  "cal": [
+   3300,
+   3600,
+   "iid"
+  ],
+  "test_iid": [
+   3600,
+   4100,
+   "iid"
+  ],
+  "suite_scenes": [
+   5000,
+   5240
+  ],
+  "terrain_scenes": [
+   6000,
+   6240
+  ],
+  "frames": 4
+ },
+ "suites": {
+  "clean": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 0,
+   "drop": 0.0,
+   "artic": false,
+   "terrain": false
+  },
+  "iid": {
+   "train_mix": true,
+   "artic": false,
+   "terrain": false
+  },
+  "cam_s1": {
+   "photo": 1,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "cam_s2": {
+   "photo": 2,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "cam_s3": {
+   "photo": 3,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 0,
+   "drop": 1.0
+  },
+  "lidar_s1": {
+   "photo": 0,
+   "lidar": 1,
+   "ext": 0,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "lidar_s2": {
+   "photo": 0,
+   "lidar": 2,
+   "ext": 0,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "lidar_s3": {
+   "photo": 0,
+   "lidar": 3,
+   "ext": 0,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "ext_s1": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 1,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "ext_s2": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 2,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "ext_s3": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 3,
+   "joint": 0,
+   "drop": 0.0
+  },
+  "joint_s1": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 1,
+   "drop": 0.0
+  },
+  "joint_s2": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 2,
+   "drop": 0.0
+  },
+  "joint_s3": {
+   "photo": 0,
+   "lidar": 0,
+   "ext": 0,
+   "joint": 3,
+   "drop": 0.0
+  },
+  "all_s2": {
+   "photo": 2,
+   "lidar": 2,
+   "ext": 2,
+   "joint": 2,
+   "drop": 0.0
+  },
+  "all_s3": {
+   "photo": 3,
+   "lidar": 3,
+   "ext": 3,
+   "joint": 3,
+   "drop": 1.0
+  },
+  "ood_artic": {
+   "train_mix": true,
+   "artic": true,
+   "terrain": false
+  },
+  "ood_terrain": {
+   "train_mix": true,
+   "artic": false,
+   "terrain": true
+  }
+ },
+ "sensors": {
+  "cab": {
+   "kind": "camera",
+   "parent": "upper",
+   "pos": [
+    1.45,
+    1.05,
+    3.3
+   ],
+   "yaw": 0.0,
+   "pitch": -0.3141592653589793,
+   "hfov": 1.6580627893946132,
+   "W": 256,
+   "H": 160
+  },
+  "boom": {
+   "kind": "camera",
+   "parent": "boom",
+   "pos": [
+    2.6,
+    0.45,
+    -0.25
+   ],
+   "yaw": 0.0,
+   "pitch": -1.0821041362364843,
+   "hfov": 1.7453292519943295,
+   "W": 256,
+   "H": 160
+  },
+  "stick": {
+   "kind": "camera",
+   "parent": "arm",
+   "pos": [
+    0.9,
+    0.35,
+    0.15
+   ],
+   "yaw": 0.0,
+   "pitch": -0.17453292519943295,
+   "hfov": 1.7453292519943295,
+   "W": 256,
+   "H": 160
+  },
+  "lidar": {
+   "kind": "lidar",
+   "parent": "upper",
+   "pos": [
+    -0.4,
+    0.0,
+    3.35
+   ],
+   "yaw": 0.0,
+   "pitch": 0.0,
+   "rings": 32,
+   "azimuths": 512,
+   "elev": [
+    -0.4886921905584123,
+    0.13962634015954636
+   ],
+   "max_range": 40.0
+  }
+ }
+}

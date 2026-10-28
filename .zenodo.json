@@ -1,0 +1,36 @@
+{
+  "title": "ExcaScene: decision-centric evaluation of excavator perception under sensor faults (code)",
+  "upload_type": "software",
+  "description": "<p>Code for ExcaScene, a paired simulation benchmark that evaluates excavator perception by the decisions it leads to. It contains the scene generator, ray-cast sensor models and paired fault interventions; two perception architectures (KinAfford dynamic and BEVFusion-Exca); the direct and composed point selectors and evaluator; camera-health monitors; classical and fixed reference policies; and the analysis and figure scripts behind the manuscript prepared for Automation in Construction.</p><p>Data, checkpoints, per-decision outputs and numerical results: https://doi.org/10.5281/zenodo.23723851 (CC BY 4.0 for original ExcaScene material, with retained upstream pretrained-component terms).</p>",
+  "creators": [
+    {
+      "name": "Nguyen, Hung Viet",
+      "affiliation": "Department of Digital Anti-Aging Healthcare (BK21), Inje University",
+      "orcid": "0000-0002-6981-0891"
+    },
+    {
+      "name": "Yang, Jinhong",
+      "affiliation": "Department of Medical IT, Inje University",
+      "orcid": "0000-0002-7756-0263"
+    }
+  ],
+  "license": "apache-2.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "excavator perception",
+    "sensor faults",
+    "camera-LiDAR fusion",
+    "decision-centric evaluation",
+    "construction automation",
+    "benchmark"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23723851",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "This work was supported by the Institute of Information & Communications Technology Planning & Evaluation (IITP), Innovative Human Resource Development for Local Intellectualization program, funded by the Korea government (MSIT) (IITP-2026-RS-2024-00436773)."
+}

@@ -1,0 +1,7 @@
+variants: [G1_perceiver, G2_static, G4_late, G6_lidar, R0_plain, R2_full]
+seeds: [0]
+parallel: 2
+config: configs/default.yaml
+variants_file: configs/variants.yaml
+runs_dir: runs_smoke
+extra_set: ["epochs=1", "batch_size=4", "num_workers=2", "data_root=data_smoke", "warmup_steps=2"]

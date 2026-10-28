@@ -1,0 +1,11 @@
+{
+  "upstream_commit": "db75150717a9462cb60241e36ba28d65f6908607",
+  "upstream_repository": "https://github.com/mit-han-lab/bevfusion",
+  "LICENSE_sha256": "02c5c55e19772184872c6c455553b15e4acac4b3a757550e7374f47723868ce1",
+  "upstream_NOTICE_present": false,
+  "modified_files": [
+    "mmdet3d/ops/spconv/include/torch_utils.h"
+  ],
+  "native_binaries_in_git": false,
+  "source_location": "workspace/external_validation_run_EV1_AFAST/source/bevfusion_adapted"
+}
