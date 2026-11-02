@@ -20,6 +20,7 @@ authors:
     email: jinhong@inje.ac.kr
     orcid: "https://orcid.org/0000-0002-7756-0263"
 version: "1.0.0"
+doi: "10.5281/zenodo.23742351"
 date-released: "2026-10-28"
 license: Apache-2.0
 repository-code: "https://github.com/nvh2520/excascene"
@@ -41,6 +42,7 @@ references:
     publisher:
       name: Zenodo
     version: "1.0.0"
+doi: "10.5281/zenodo.23742351"
     doi: "10.5281/zenodo.23723851"
     license: CC-BY-4.0
 preferred-citation:

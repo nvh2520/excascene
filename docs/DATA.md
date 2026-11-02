@@ -1,6 +1,6 @@
 # Data and checkpoints
 
-The authors are uploading the data, checkpoints and numerical outputs to the Zenodo dataset deposit [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851), with CC BY 4.0 terms for original ExcaScene material and the upstream exceptions in THIRD_PARTY_NOTICES.md. Use them with code release v1.0.0 of this repository.
+Data, checkpoints and numerical outputs are published in the Zenodo dataset deposit [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851), with CC BY 4.0 terms for original ExcaScene material and the upstream exceptions in THIRD_PARTY_NOTICES.md. Use them with code release v1.0.0 of this repository.
 
 ## Archives
 

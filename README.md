@@ -4,7 +4,7 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23723851.svg)](https://doi.org/10.5281/zenodo.23723851)
-<!-- After the first GitHub release, add the software DOI badge that Zenodo shows for this repository. -->
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23742351.svg)](https://doi.org/10.5281/zenodo.23742351)
 
 ExcaScene judges excavator perception by the decisions it leads to, not only by map error. It pairs articulated camera–LiDAR simulations of an excavator with controlled sensor faults and a fixed digging-point selector, and reports decision regret and unsafe selections (choices inside person, obstacle, truck or machine buffers) alongside map metrics.
 
@@ -16,7 +16,7 @@ This repository holds the code that produced the results in the accompanying pap
 - the camera-health monitors (an RGB classifier and a depth-validity rule), the classical baseline and the fixed reference policies;
 - the analysis and figure scripts.
 
-Checkpoints, evaluation data, per-decision outputs and numerical results are being uploaded by the authors to the Zenodo dataset deposit [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851) (CC BY 4.0 for original ExcaScene material, with the upstream exceptions in THIRD_PARTY_NOTICES.md).
+Checkpoints, evaluation data, per-decision outputs and numerical results are published in the Zenodo dataset deposit [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851) (CC BY 4.0 for original ExcaScene material, with the upstream exceptions in THIRD_PARTY_NOTICES.md).
 
 > H. V. Nguyen and J. Yang. *Decision-centric evaluation of excavator perception under sensor faults: a paired simulation benchmark and camera-fault fallback.* Manuscript prepared for Automation in Construction, 2026.
 
@@ -42,7 +42,7 @@ BEVFusion-Exca needs CUDA operators (sparse convolution, BEV pooling and voxeliz
 
 ## Data and checkpoints
 
-Dataset upload is in progress. The dataset DOI is reserved; downloads become available when the authors publish the Zenodo record.
+Dataset: [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851). Versioned software archive: [doi:10.5281/zenodo.23742351](https://doi.org/10.5281/zenodo.23742351).
 
 1. Download the archives you need from [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851), together with `SHA256SUMS.txt`.
 2. Check them: `python tools/verify_checksums.py --dir <download folder>`
@@ -74,7 +74,7 @@ The paper's real-image check uses GOOSE-Ex images, which are not redistributed h
 
 ## Citation
 
-Please cite the paper and the versions of the code and data you used. GitHub's "Cite this repository" button reads [CITATION.cff](CITATION.cff); the Zenodo record of each code release gives its version DOI.
+Please cite the paper and the versions of the code and data you used. GitHub's "Cite this repository" button reads [CITATION.cff](CITATION.cff); the versioned software archive has DOI [10.5281/zenodo.23742351](https://doi.org/10.5281/zenodo.23742351).
 
 ```bibtex
 @article{nguyen2026excascene,
