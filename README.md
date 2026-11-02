@@ -44,8 +44,8 @@ BEVFusion-Exca needs CUDA operators (sparse convolution, BEV pooling and voxeliz
 
 Dataset: [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851). Versioned software archive: [doi:10.5281/zenodo.23742351](https://doi.org/10.5281/zenodo.23742351).
 
-1. Download the archives you need from [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851), together with `SHA256SUMS.txt`.
-2. Check them: `python tools/verify_checksums.py --dir <download folder>`
+1. Download the archives you need from [doi:10.5281/zenodo.23723851](https://doi.org/10.5281/zenodo.23723851).
+2. Save the [archive checksum list](docs/dataset_SHA256SUMS.txt) as `SHA256SUMS.txt` in your download folder, then check the files: `python tools/verify_checksums.py --dir <download folder>`
 3. Extract them into `data/`. The expected layout is in [docs/DATA.md](docs/DATA.md).
 4. In the activated environment, run `python tools/bind_data.py` once to bind the extracted files to the unchanged scientific source layout. This writes relative links inside the checkout, without requiring latent files.
 

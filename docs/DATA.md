@@ -39,3 +39,7 @@ Layout after extraction:
 ## Regenerating data
 
 The unchanged scene, pose and rendering source is provided in `workspace/`. The release entry point `tools/regenerate_latents.py` replays shared and novel-fault fields only. This pass tested those fields for both prospective gate holdouts, not a new full rendering run. The rendered observations in the deposit are the exact inputs used in the reported evaluations.
+
+## Archive checksums
+
+The [SHA-256 archive checksum list](dataset_SHA256SUMS.txt) in this repository covers the ten published dataset ZIPs. Save it as `SHA256SUMS.txt` beside downloaded archives and run `python tools/verify_checksums.py --dir <download folder>`. It reproduces the archive digests from the sealed release package.
